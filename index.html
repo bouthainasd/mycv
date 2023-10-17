@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mon cv</title>
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap/css3/all.min.css">
+    <link rel="stylesheet" href="bootstrap/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="bootstrap/css/fontawesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css" integrity="sha512-cx+NiEfA/8yVLiNjJfMv+X9EjtLQ1S5ZfS5/+5hC7wFD5Q4O4sw4u4Bp9VqwE+WjvnGz0tq3+SmUGzJtFw/vtQ==" crossorigin=""/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js" integrity="sha512-Ki9XWLOJTyRSQiq/fRyGnLx7+lN5IE5ZfS5/+5hC7wFD5Q4O4sw4u4Bp9VqwE+WjvnGz0tq3+SmUGzJtFw/vtQ==" crossorigin=""></script>
+  <!-- maps -->
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+  <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+      defer></script>
+   
+
+
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg mb-5 sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <h1>bienvenu a mon cv</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main"
+                aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="main">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                        <a class="nav-link p-lg-3 active" aria-current="page" href="#face"> Face</a>
+                    </li>
+                    <li class="nav-item">
+                        <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                        <a class="nav-link p-lg-3" aria-current="page" href="#home">Pour Moi</a>
+                    </li>
+                    <li class="nav-item">
+                        <span class="icon"><ion-icon name="library-outline"></ion-icon></span>
+                        <a class="nav-link p-lg-3" href="#about"> Connaissances</a>
+                    </li>
+                    <li class="nav-item">
+                        <span class="icon"><ion-icon name="ribbon-outline"></ion-icon></span>
+                        <a class="nav-link p-lg-3" href="#service"> Activités</a>
+                    </li>
+                    <li class="nav-item">
+                        <span class="icon"><ion-icon name="chatbubble-outline"></ion-icon></span>
+                        <a class="nav-link p-lg-3" href="#contact">Contact</a>
+                    </li>
+                    <li>
+                        <button onclick="myFunction()"><ion-icon name="sunny-outline"></ion-icon></button>
+                    </li>
+                    <div class="indicator"></div>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <script>
+        function myFunction() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+        }
+        </script>
+
+
+
+    <br><br><br>
+    <section class="mero pt-5" id="face">
+        <div class="container mero-content pb-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Salut ,je sius <span> SAIDI BOUTHAINA </span></h1>
+                    <div class="text-animation">
+                        <h3>devellopeur</h3>
+                    </div>
+                    <p class="bnj">
+                        Expérience de haut niveau dans la conception et
+                        le développement de sites Web, produisant un travail de qualité.
+                    </p>
+                    <div class="box-btn">
+                        <a href="#" class="bnn">ici moi</a>
+                        <a href="#" class="bnn">click ici</a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="image/ph13.jpg" width="60%" alt="">
+                </div>
+            </div>
+            <div class="home-imghover"></div>
+        </div>
+    </section>
+    <section class="hero pt-5 pb-5" id="home">
+        <div class="container pt-5 pb-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="hero-img">
+                        <img id="img-photo" src="image/photo1.jpg" width="60%" alt="">
+                    </div>
+
+                </div>
+                <div class="bou col-md-6" data-tilt>
+                    <div class="owl-carousel owl-theme">
+                        <div class="content ">
+                            <h2><b>Je Suis, SAIDI BOUTHAINA </b></h2>
+                            <span class="sub-title text-black">
+                                Aide soignante & developpment web
+                            </span>
+                            <div class="info">
+                                <ul>
+                                    <li>
+                                        <span class="title">
+                                            <h5>Email :</h5>
+                                        </span>
+                                        <span class="value text-black">sd,bouthaina@gmail.com</span>
+                                    </li>
+                                    <li>
+                                        <span class="title">
+                                            <h5>Nombre:</h5>
+                                        </span>
+                                        <span class="value text-black">90490735</span>
+                                    </li>
+                                    <li>
+                                        <span class="title">
+                                            <h5>Age:</h5>
+                                        </span>
+                                        <span class="value text-black">25</span>
+                                    </li>
+                                    <li>
+                                        <span class="title">
+                                            <h5>Habit A:</h5>
+                                        </span>
+                                        <span class="value text-black">Tunis</span>
+                                    </li>
+                                </ul>
+                                <div class="social-icon col-ms-4 col-md-6 d-flex">
+                                    <a href="">
+                                        <i class="fa-brands fa-facebook"></i>
+                                    </a>
+                                    <a href="">
+                                        <span><i class="fa-brands fa-twitter"></i></span>
+                                    </a>
+                                    <a href="">
+                                        <span><i class="fa-brands fa-linkedin"></i></span>
+                                    </a>
+                                    <a href="">
+                                        <span><i class="fa-brands fa-behance"></i></span>
+                                    </a>
+                                    <a href="">
+                                        <span><i class="fa-brands fa-youtube"></i></span>
+                                    </a>
+                                    <a href="">
+                                        <span><i class="fa-brands fa-whatsapp"></i></span>
+                                    </a>
+                                </div>
+                                <button type="button" class="btn  active rounded-pill">CONTACTER MOI</button>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br><br>
+    </section>
+    <section class="man text-center pt-5" id="about">
+        <div class="container">
+
+            <h2 class="text-center mt-5 fw-bold">Mes Connaissances technologiques</h2>
+            <p class="grey text-center mt-3">
+                mes Connaissances technologiques sont limitées mais bonnes ,distinguées,
+                autonomes et tres experimentées au travail :
+            </p>
+            <h4>les langues informatique : pascal et python</h4>
+            <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true"
+                space-between="30" centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
+                <swiper-slide><img src="image/photo10.png"></swiper-slide>
+                <swiper-slide><img src="image/photo11.png"></swiper-slide>
+                <swiper-slide><img src="image/photo12.png"></swiper-slide>
+                <swiper-slide><img src="image/photo8.jpg"></swiper-slide>
+                <swiper-slide><img src="image/photo7.jpg"></swiper-slide>
+                <swiper-slide><img src="image/photo9.png"></swiper-slide>
+                <swiper-slide><img src="image/photo11.png"></swiper-slide>
+                <swiper-slide><img src="image/photo11.png"></swiper-slide>
+
+                <div class="autoplay-progress" slot="container-end">
+                    <svg viewBox="0 0 48 48">
+                        <circle cx="24" cy="24" r="20"></circle>
+                    </svg>
+                    <span></span>
+                </div>
+            </swiper-container>
+        </div>
+    </section>
+    
+    <div class="time text-center pt-5 pb-5" id="service">
+        <div class="container">
+            <h2 class="fw-bold mt-5">Mes loisirs & mes activités</h2>
+            <div class="row align-items-center d-flex">
+                <div class="bnt1 col-lg-6 col-md-6">
+                    <h5>mes loisirs sont:</h5>
+                    <p class="prr text-center">
+                        la lecture de romans et les vieux livres
+                        <br>
+                        partage les reseaux sociaux
+                        <br>
+                        conduite folle et les aventures aléatoires
+                    </p>
+                    <div>
+                        <img src="image/photoo.jpg">
+                    </div>
+                </div>
+
+                <div class="bnt2 col-lg-6 col-md-6">
+                    <h5>mes activités sont:</h5>
+                    <p class=" text-center">
+                        en chantant
+                        faire des activités sportives
+                        faire des activités devertissement
+                        <br>
+                        faire des activités culturelles
+                    </p>
+                    <div>
+                        <img src="image/photooo.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="contact" id="contact">
+        <div class="content text-center pt-5">
+            <h2 class="fw-500">CONTACTER MOI</h2>
+            <p class="njb">
+                Pour contacter moi légender les données suivantes correctement.
+            </p>
+        </div>
+        <div class="container1">
+            <div class="row">
+                <div class="info col-lg-6">
+                    <div class="box">
+                        <div class="icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div class="text">
+                            <h3>Adress</h3>
+                            <p class="njb">
+                                6150 Rohia seliena <br>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                        <div class="text">
+                            <h3>telephone</h3>
+                            <p class="njb">
+                                90490735<br>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon"><i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p class="njb">
+                                sdbou147@gmail.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contactform col-lg-6">
+                    <form name="formValidation" id="formValidation" action="valid-html">
+                        <h2>
+                            envoyer votre Message
+                        </h2>
+                        <div class="inputbox">
+                            <input type="text"  required="required">
+                            <span>Prénon</span>
+                        </div>
+                        <div class="inputbox">
+                            <input type="text" name="" required="required">
+                            <span>Email</span>
+                        </div>
+                        <div class="inputbox">
+                            <textarea name="formMessage" rows="6" required="required"></textarea>
+                            <span>Ecrire votre Message...</span>
+                        </div>
+                        <div class="inputbox">
+                            <input type="submit" name="" value="envoyer">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--  map -->
+
+    <h2 class="text-center">My Google Maps </h2>
+
+    <div id="map"></div><br><br><br>
+    <!--===== maps =====*/-->
+<script>
+
+function initMap() {
+  const Tunisia = { lat: 33.886917, lng: 9.537499000000025 };
+  const map = new google.maps.Map(document.getElementById("map"), {
+    zoom: 4,
+    center: Tunisia,
+  });
+};
+</script>
+
+    <!--Footer design-->
+
+    <footer class="footer bg-black">
+        <div class="footer-text text-white">
+            <h1> merci pour la visite</h1>
+        </div>
+        <div class="footer-icon">
+            <a href="">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="">
+                <span><i class="fa-brands fa-twitter"></i></span>
+            </a>
+            <a href="">
+                <span><i class="fa-brands fa-linkedin"></i></span>
+            </a>
+            <a href="">
+                <span><i class="fa-brands fa-behance"></i></span>
+            </a>
+           
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#face"><i class="bx bx-up-arrow-alt"><ion-icon name="arrow-up-outline"></ion-icon></i></a>
+        </div>
+    </footer>
+    <!-----------style switcher start-------------->
+   
+    <script src="bootstrap/js/style-switcher.js"></script>
+
+    <!-----------style switcher end-------------->
+
+
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/js/all.min.js"></script>
+    <script src="bootstrap/js/fontawesome.min.js"></script>
+    <script src="vanilla-tilt.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="jquery.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        const progressCircle = document.querySelector(".autoplay-progress svg");
+        const progressContent = document.querySelector(".autoplay-progress span");
+
+        const swiperEl = document.querySelector("swiper-container");
+        swiperEl.addEventListener("autoplaytimeleft", (e) => {
+            const [swiper, time, progress] = e.detail;
+            progressCircle.style.setProperty("--progress", 1 - progress);
+            progressContent.textContent = `${Math.ceil(time / 1000)}s`;
+        });
+    </script>
+   
+<script>    
+    /*======Scroll section active link======*/
+    let section = document.querySelectorAll('section');
+    let navLink = documentt.querySelectorAll('header nav a');
+    
+    
+    window.onscroll = () => 
+    section.forEach(sec => {
+        let top = window.scrollY;
+        let offset = sec.offsetTop -150;
+        let height = sec.offsetHeight;
+        let id = sec.getAttribute('id');
+    
+        if(top >= offset && top < offset + height) {
+            navLink.forEach(links => {
+                links.classList.remove('active');
+                document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
+            });
+        };
+    });
+</script>
+
+</body>
+
+
+
+</html>
